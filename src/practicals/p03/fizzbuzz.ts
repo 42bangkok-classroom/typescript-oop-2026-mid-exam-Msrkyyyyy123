@@ -3,7 +3,7 @@ const inputNumber = process.argv[2];
 const point = Number(inputNumber);
 
 if(Number.isNaN(point) || inputNumber === '') {
-    
+
 } 
 else { 
     for(let i = 1; i<=point; i++) {
@@ -14,7 +14,7 @@ else {
     } else if (i % 5 == 0){
     console.log('Buzz');  
     } else {
-    console.log(`${i}`);
+    console.log("${i}");
     } 
 }
 }
