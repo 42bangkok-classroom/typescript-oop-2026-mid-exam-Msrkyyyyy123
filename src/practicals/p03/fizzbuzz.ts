@@ -1,11 +1,9 @@
-import { exit } from "process";
-
 // Write your code below
 const inputNumber = process.argv[2];
 const point = Number(inputNumber);
 
 if(Number.isNaN(point) || inputNumber === ''){
-    exit; 
+     
 } else { 
     for(let i = 1; i<=point; i++) {
     if (i % 3 == 0 && i % 5 == 0){
