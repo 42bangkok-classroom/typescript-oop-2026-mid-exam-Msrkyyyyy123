@@ -3,8 +3,7 @@ let points = (process.argv[2])
 let Input1 = Number(points);
 
 if(Number.isNaN(Input1)||(Input1 < 0) || (Input1 > 100) || points === '' || !points ){
-   console.log("Invalid Input");
-   process.exit();  
+   console.log("Invalid Input"); 
 }
 
 if (Input1 < 50) {
