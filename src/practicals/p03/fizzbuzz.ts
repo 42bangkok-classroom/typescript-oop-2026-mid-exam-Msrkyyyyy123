@@ -14,7 +14,7 @@ else {
     } else if (i % 5 == 0){
     console.log('Buzz');  
     } else {
-    console.log("${i}");
+    console.log(i);
     } 
 }
 }
